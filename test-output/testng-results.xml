@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.flights.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.oneway.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'pune' into 'txt.flyingfrom.besttravelpage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'lst.from.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'txt.flyingto.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'coimbatore' into 'txt.flyingto.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'lst.to.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '03/01/2018' into 'txt.departing.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'txt.departing.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.calender.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.search.besttraveldeals'</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.flights.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.oneway.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'pune' into 'txt.flyingfrom.besttravelpage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'lst.from.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'txt.flyingto.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'bangalore' into 'txt.flyingto.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'lst.to.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '03/01/2018' into 'txt.departing.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'txt.departing.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.calender.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.search.besttraveldeals'</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26466" started-at="2018-02-13T12:23:16Z" finished-at="2018-02-13T12:23:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26466" started-at="2018-02-13T12:23:16Z" finished-at="2018-02-13T12:23:43Z">
+      <class name="com.testflightbooking.test.DataAssignment">
+        <test-method status="PASS" signature="fetchData(java.lang.String, java.lang.String)[pri:0, instance:com.testflightbooking.test.DataAssignment@3439f68d]" name="fetchData" duration-ms="19426" started-at="2018-02-13T17:53:16Z" finished-at="2018-02-13T17:53:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[coimbatore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.flights.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.oneway.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'pune' into 'txt.flyingfrom.besttravelpage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'lst.from.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'txt.flyingto.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'coimbatore' into 'txt.flyingto.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'lst.to.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '03/01/2018' into 'txt.departing.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'txt.departing.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.calender.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.search.besttraveldeals'</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fetchData -->
+        <test-method status="PASS" signature="fetchData(java.lang.String, java.lang.String)[pri:0, instance:com.testflightbooking.test.DataAssignment@3439f68d]" name="fetchData" duration-ms="6926" started-at="2018-02-13T17:53:36Z" finished-at="2018-02-13T17:53:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bangalore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.flights.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.oneway.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'pune' into 'txt.flyingfrom.besttravelpage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'lst.from.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'txt.flyingto.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'bangalore' into 'txt.flyingto.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'lst.to.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '03/01/2018' into 'txt.departing.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'txt.departing.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.calender.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.search.besttraveldeals'</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fetchData -->
+      </class> <!-- com.testflightbooking.test.DataAssignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testOrbitz",
+        "sign": "TestOrbitz.testOrbitz()[pri:0, instance:com.testflightbooking.test.TestOrbitz@7a6d7e92]"
+      },
+      "dependsOn": [],
+      "startTime": 1518411354419,
+      "duration": 10153,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

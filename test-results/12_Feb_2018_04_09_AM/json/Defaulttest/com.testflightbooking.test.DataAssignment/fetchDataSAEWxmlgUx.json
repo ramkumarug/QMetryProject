@@ -1,0 +1,438 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.orbitz.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 6628
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1141
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[btn.flights.besttraveldeals]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@id='tab-flight-tab'], using=xpath}"
+          ],
+          "result": "id: 0.46020258878305365-1",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@id='tab-flight-tab']",
+            "{\"id\":\"0.46020258878305365-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 156
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[btn.oneway.besttraveldeals]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//label[@id='flight-type-one-way-label'], using=xpath}"
+          ],
+          "result": "id: 0.46020258878305365-2",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //label[@id='flight-type-one-way-label']",
+            "{\"id\":\"0.46020258878305365-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 143
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[pune, txt.flyingfrom.besttravelpage]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='flight-origin'], using=xpath}"
+          ],
+          "result": "id: 0.46020258878305365-3",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='flight-origin']",
+            "{\"id\":\"0.46020258878305365-3\",\"value\":[\"pune\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 145
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[lst.from.besttraveldeals]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@data-tid='typeahead-icon0']/.., using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@data-tid='typeahead-icon0']/..\"}\n  (Session info: chrome=64.0.3282.140)\n  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 47 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\\Users\\RAM~1.KUM\\AppData\\Local\\Temp\\scoped_dir16416_30977}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.140, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 3a4e9b64c973378c14d67e99399249d2\n*** Element info: {Using=xpath, value=//span[@data-tid='typeahead-icon0']/..}",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@data-tid='typeahead-icon0']/.., using=xpath}"
+          ],
+          "result": "id: 0.46020258878305365-4",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //span[@data-tid='typeahead-icon0']/..",
+            "{\"id\":\"0.46020258878305365-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 149
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[txt.flyingto.besttraveldeals]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='flight-destination'], using=xpath}"
+          ],
+          "result": "id: 0.46020258878305365-5",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //input[@id='flight-destination']",
+            "{\"id\":\"0.46020258878305365-5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 110
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[coimbatore, txt.flyingto.besttraveldeals]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='flight-destination'], using=xpath}"
+          ],
+          "result": "id: 0.46020258878305365-5",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='flight-destination']",
+            "{\"id\":\"0.46020258878305365-5\",\"value\":[\"coimbatore\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 218
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[lst.to.besttraveldeals]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@data-tid='typeahead-icon0']/.., using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@data-tid='typeahead-icon0']/..\"}\n  (Session info: chrome=64.0.3282.140)\n  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\\Users\\RAM~1.KUM\\AppData\\Local\\Temp\\scoped_dir16416_30977}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.140, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 3a4e9b64c973378c14d67e99399249d2\n*** Element info: {Using=xpath, value=//span[@data-tid='typeahead-icon0']/..}",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[@data-tid='typeahead-icon0']/.., using=xpath}"
+          ],
+          "result": "id: 0.46020258878305365-6",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //span[@data-tid='typeahead-icon0']/..",
+            "{\"id\":\"0.46020258878305365-6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 118
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[03/01/2018, txt.departing.besttraveldeals]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='flight-departing'], using=xpath}"
+          ],
+          "result": "id: 0.46020258878305365-7",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='flight-departing']",
+            "{\"id\":\"0.46020258878305365-7\",\"value\":[\"03/01/2018\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 173
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[txt.departing.besttraveldeals]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='flight-departing'], using=xpath}"
+          ],
+          "result": "id: 0.46020258878305365-7",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //input[@id='flight-departing']",
+            "{\"id\":\"0.46020258878305365-7\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 52
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[btn.calender.besttraveldeals]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@class='datepicker-close-btn close btn-text'], using=xpath}"
+          ],
+          "result": "id: 0.46020258878305365-8",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //button[@class='datepicker-close-btn close btn-text']",
+            "{\"id\":\"0.46020258878305365-8\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 87
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[btn.search.besttraveldeals]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@id='search-button'], using=xpath}"
+          ],
+          "result": "id: 0.46020258878305365-9",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //button[@id='search-button']",
+            "{\"id\":\"0.46020258878305365-9\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 4871
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "click on 'btn.flights.besttraveldeals'",
+      "type": "TestStepPass",
+      "duration": 206,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'btn.oneway.besttraveldeals'",
+      "type": "TestStepPass",
+      "duration": 172,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'pune' into 'txt.flyingfrom.besttravelpage'",
+      "type": "TestStepPass",
+      "duration": 167,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'lst.from.besttraveldeals'",
+      "type": "TestStepPass",
+      "duration": 1224,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'txt.flyingto.besttraveldeals'",
+      "type": "TestStepPass",
+      "duration": 134,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'coimbatore' into 'txt.flyingto.besttraveldeals'",
+      "type": "TestStepPass",
+      "duration": 232,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'lst.to.besttraveldeals'",
+      "type": "TestStepPass",
+      "duration": 1152,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys '03/01/2018' into 'txt.departing.besttraveldeals'",
+      "type": "TestStepPass",
+      "duration": 200,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'txt.departing.besttraveldeals'",
+      "type": "TestStepPass",
+      "duration": 79,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'btn.calender.besttraveldeals'",
+      "type": "TestStepPass",
+      "duration": 106,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'btn.search.besttraveldeals'",
+      "type": "TestStepPass",
+      "duration": 4891,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

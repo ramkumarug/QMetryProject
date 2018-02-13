@@ -1,0 +1,23 @@
+12:41:46 scenario.file.loc[Ljava.lang.String;@4abdb505
+12:41:46 loading BDD file: C:\Users\ram.kumar\Desktop\QmetryProject\TestFlightBooking\.\scenarios\Test.bdd
+12:41:46 total test found: 1
+12:41:46 
+
+Executing scenario: TestFlight - end to end
+12:41:46 pkg: com.qmetry.qaf.automation.step
+12:41:46 pkg: com.testflightbooking
+12:41:46 Found duplicate step to load [] with [lower] prority then []
+12:41:47 Invoking Teststep: Given user is on the Homepage
+12:42:07 Completed Teststep: Given user is on the Homepage
+12:42:07 Invoking Teststep: When user selects the 'pnq' and 'destination' with arguments: [pnq, destination]
+12:42:07 Completed Teststep: When user selects the 'pnq' and 'destination' with arguments: [pnq, destination]
+12:42:08 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="user selects find flights")
+public void userSelectsFindFlights(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+12:42:08 Competed scenario: TestFlight with status FAILURE

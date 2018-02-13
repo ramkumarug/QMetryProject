@@ -1,0 +1,5 @@
+li.childresults.searchresults = {\"locator\":\"xpath=//li[@class='flight-module segment offer-listing']\",\"desc\":\"child search result\"}
+time.arrivalanddeparture.searchresults = {\"locator\":\"xpath=//div[@class='primary']\",\"desc\":\"departure and arrival time in result set\"}
+price.searchresults = {\"locator\":\"xpath=//span[@class='dollars price-emphasis']\",\"desc\":\"price of the ticket\"}
+duration.searchresults = {\"locator\":\"xpath=//div[@data-test-id='duration']\",\"desc\":\"duration of the travel\"}
+flightname.searchresult = {\"locator\":\"xpath=//div[@class='secondary truncate']\",\"desc\":\"name of the airline\"}

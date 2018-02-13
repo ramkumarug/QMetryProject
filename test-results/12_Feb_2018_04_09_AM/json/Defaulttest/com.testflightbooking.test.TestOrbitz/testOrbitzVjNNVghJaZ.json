@@ -1,0 +1,155 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.orbitz.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 14349
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1133
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "ORBITZ.com – Best Travel Deals",
+      "subLogs": [],
+      "duration": 123
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@id='tab-flight-tab'], using=xpath}"
+      ],
+      "result": "id: 0.14035360261517682-1",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[@id='tab-flight-tab']",
+        "{\"id\":\"0.14035360261517682-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 186
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//label[@id='flight-type-one-way-label'], using=xpath}"
+      ],
+      "result": "id: 0.14035360261517682-2",
+      "subLogs": [],
+      "duration": 49
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //label[@id='flight-type-one-way-label']",
+        "{\"id\":\"0.14035360261517682-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 168
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@id='flight-origin'], using=xpath}"
+      ],
+      "result": "id: 0.14035360261517682-3",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@id='flight-origin']",
+        "{\"id\":\"0.14035360261517682-3\",\"value\":[\"pune\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 150
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@id='flight-destination'], using=xpath}"
+      ],
+      "result": "id: 0.14035360261517682-4",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@id='flight-destination']",
+        "{\"id\":\"0.14035360261517682-4\",\"value\":[\"coimbatore\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 273
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@id='flight-destination'], using=xpath}"
+      ],
+      "result": "id: 0.14035360261517682-4",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@id='flight-destination']",
+        "{\"id\":\"0.14035360261517682-4\",\"value\":[\"03/03/2018\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 266
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//button[@id='search-button'], using=xpath}"
+      ],
+      "result": "id: 0.14035360261517682-5",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //button[@id='search-button']",
+        "{\"id\":\"0.14035360261517682-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 239
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: \"ORBITZ.com – Best Travel Deals\"\n     Actual: was \"ORBITZ.com – Best Travel Deals\"",
+      "type": "Pass",
+      "screenshot": "../img/testOrbitz_1wx1pppfm8mc37566.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

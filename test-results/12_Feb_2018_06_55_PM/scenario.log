@@ -1,0 +1,32 @@
+18:55:47 scenario.file.loc[Ljava.lang.String;@1ad282e0
+18:55:47 loading BDD file: scenarios/Test.bdd
+18:55:47 total test found: 1
+18:55:48 
+
+Executing scenario: TestFlight - end to end
+18:55:48 pkg: com.qmetry.qaf.automation.step
+18:55:48 pkg: com.testflightbooking
+18:55:48 Found duplicate step to load [] with [lower] prority then []
+18:55:48 Invoking Teststep: Given user opens the browser
+18:56:02 Completed Teststep: Given user opens the browser
+18:56:02 Invoking Teststep: Then user should see the orbitz homepage
+18:56:03 Completed Teststep: Then user should see the orbitz homepage
+18:56:03 Invoking Teststep: when user clicks on to flights tab
+18:56:04 Completed Teststep: when user clicks on to flights tab
+18:56:04 Invoking Teststep: And user clicks on to one way tab
+18:56:04 Completed Teststep: And user clicks on to one way tab
+18:56:04 Invoking Teststep: And user enters the "pune" in source with arguments: [pune]
+18:56:04 Invoking Teststep: click on {loc} with arguments: [lst.from.besttraveldeals]
+18:56:05 Completed Teststep: click on {loc} with arguments: [lst.from.besttraveldeals]
+18:56:05 Completed Teststep: And user enters the "pune" in source with arguments: [pune]
+18:56:05 Invoking Teststep: And user enters "coimbatore" in destination with arguments: [coimbatore]
+18:56:06 Invoking Teststep: sendKeys {text} into {loc} with arguments: [coimbatore, txt.flyingto.besttraveldeals]
+18:56:06 Completed Teststep: sendKeys {text} into {loc} with arguments: [coimbatore, txt.flyingto.besttraveldeals]
+18:56:06 Invoking Teststep: click on {loc} with arguments: [lst.to.besttraveldeals]
+18:56:07 Completed Teststep: click on {loc} with arguments: [lst.to.besttraveldeals]
+18:56:07 Completed Teststep: And user enters "coimbatore" in destination with arguments: [coimbatore]
+18:56:07 Invoking Teststep: And user enters "03/01/2018" as the date of journey with arguments: [03/01/2018]
+18:56:07 Invoking Teststep: click on {loc} with arguments: [txt.departing.besttraveldeals]
+18:56:07 Completed Teststep: click on {loc} with arguments: [txt.departing.besttraveldeals]
+18:56:07 Completed Teststep: And user enters "03/01/2018" as the date of journey with arguments: [03/01/2018]
+18:56:07 Competed scenario: TestFlight with status SUCESS

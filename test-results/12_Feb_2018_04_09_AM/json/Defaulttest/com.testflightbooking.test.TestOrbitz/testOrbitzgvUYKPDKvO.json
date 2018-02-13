@@ -1,0 +1,180 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "lauchSite",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 9507
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1136
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "ORBITZ.com – Best Travel Deals",
+      "subLogs": [],
+      "duration": 477
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@id='tab-flight-tab'], using=xpath}"
+      ],
+      "result": "id: 0.6941753239327495-1",
+      "subLogs": [],
+      "duration": 136
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[@id='tab-flight-tab']",
+        "{\"id\":\"0.6941753239327495-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 496
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//label[@id='flight-type-one-way-label'], using=xpath}"
+      ],
+      "result": "id: 0.6941753239327495-2",
+      "subLogs": [],
+      "duration": 113
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //label[@id='flight-type-one-way-label']",
+        "{\"id\":\"0.6941753239327495-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 177
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@id='flight-origin'], using=xpath}"
+      ],
+      "result": "id: 0.6941753239327495-3",
+      "subLogs": [],
+      "duration": 45
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@id='flight-origin']",
+        "{\"id\":\"0.6941753239327495-3\",\"value\":[\"pune\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 179
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@id='flight-destination'], using=xpath}"
+      ],
+      "result": "id: 0.6941753239327495-4",
+      "subLogs": [],
+      "duration": 45
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@id='flight-destination']",
+        "{\"id\":\"0.6941753239327495-4\",\"value\":[\"coimbatore\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 337
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@id='flight-departing'], using=xpath}"
+      ],
+      "result": "id: 0.6941753239327495-5",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@id='flight-departing']",
+        "{\"id\":\"0.6941753239327495-5\",\"value\":[\"03/03/2018\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 8943
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@id='arrival-airport-1'], using=xpath}"
+      ],
+      "result": "id: 0.06351858330948623-1",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //input[@id='arrival-airport-1']",
+        "{\"id\":\"0.06351858330948623-1\"}"
+      ],
+      "result": "getElementText:",
+      "subLogs": [],
+      "duration": 26
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "user is on the Homepage",
+      "type": "TestStepPass",
+      "duration": 10650,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: \"ORBITZ.com – Best Travel Deals\"\n     Actual: was \"ORBITZ.com – Best Travel Deals\"",
+      "type": "Pass",
+      "screenshot": "../img/testOrbitz_1h627k0y7y3gr15.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+16:25:14 scenario.file.loc[Ljava.lang.String;@1ad282e0
+16:25:14 loading BDD file: scenarios/Test.bdd
+16:25:14 total test found: 1
+16:25:14 
+
+Executing scenario: TestFlight - end to end
+16:25:14 pkg: com.qmetry.qaf.automation.step
+16:25:14 pkg: com.testflightbooking
+16:25:14 Found duplicate step to load [] with [lower] prority then []
+16:25:14 Invoking Teststep: Given user opens the browser
+16:25:37 Completed Teststep: Given user opens the browser
+16:25:37 Competed scenario: TestFlight with status SUCESS

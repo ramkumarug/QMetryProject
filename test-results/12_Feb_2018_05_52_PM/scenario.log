@@ -1,0 +1,32 @@
+17:52:39 scenario.file.loc[Ljava.lang.String;@1ad282e0
+17:52:39 loading BDD file: scenarios/Test.bdd
+17:52:39 total test found: 1
+17:52:39 
+
+Executing scenario: TestFlight - end to end
+17:52:39 pkg: com.qmetry.qaf.automation.step
+17:52:40 pkg: com.testflightbooking
+17:52:40 Found duplicate step to load [] with [lower] prority then []
+17:52:40 Invoking Teststep: Given user opens the browser
+17:52:56 Completed Teststep: Given user opens the browser
+17:52:57 Invoking Teststep: Then user should see the orbitz homepage
+17:52:58 Completed Teststep: Then user should see the orbitz homepage
+17:52:58 Invoking Teststep: when user clicks on to flights tab
+17:52:58 Completed Teststep: when user clicks on to flights tab
+17:52:58 Invoking Teststep: And user clicks on to one way tab
+17:52:58 Completed Teststep: And user clicks on to one way tab
+17:52:58 Invoking Teststep: And user enters the "pune" in source with arguments: [pune]
+17:52:58 Invoking Teststep: click on {loc} with arguments: [lst.from.besttraveldeals]
+17:53:00 Completed Teststep: click on {loc} with arguments: [lst.from.besttraveldeals]
+17:53:00 Completed Teststep: And user enters the "pune" in source with arguments: [pune]
+17:53:00 Invoking Teststep: And user enters "coimbatore" in destination with arguments: [coimbatore]
+17:53:00 Invoking Teststep: sendKeys {text} into {loc} with arguments: [coimbatore, txt.flyingto.besttraveldeals]
+17:53:00 Completed Teststep: sendKeys {text} into {loc} with arguments: [coimbatore, txt.flyingto.besttraveldeals]
+17:53:00 Invoking Teststep: click on {loc} with arguments: [lst.to.besttraveldeals]
+17:53:01 Completed Teststep: click on {loc} with arguments: [lst.to.besttraveldeals]
+17:53:01 Completed Teststep: And user enters "coimbatore" in destination with arguments: [coimbatore]
+17:53:01 Invoking Teststep: And user enters "03/01/2018" as the date of journey with arguments: [03/01/2018]
+17:53:02 Completed Teststep: And user enters "03/01/2018" as the date of journey with arguments: [03/01/2018]
+17:53:02 Invoking Teststep: And clicks on enter
+17:53:02 Completed Teststep: And clicks on enter
+17:53:02 Competed scenario: TestFlight with status SUCESS

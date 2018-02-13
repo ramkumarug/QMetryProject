@@ -1,0 +1,18 @@
+
+
+SCENARIO: TestFlight
+META-DATA: {"description":"end to end","groups":["P1","P2","SMOKE"]}
+	
+Given user opens the browser
+Then user should see the orbitz homepage
+when user clicks on to flights tab
+And user clicks on to one way tab
+And user enters the "pune" in source
+And user enters "coimbatore" in destination
+And user enters "03/01/2018" as the date of journey
+And clicks on search
+#Then search results page should be displayed
+
+	
+	
+END 

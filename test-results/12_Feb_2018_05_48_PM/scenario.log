@@ -1,0 +1,23 @@
+17:48:20 scenario.file.loc[Ljava.lang.String;@1ad282e0
+17:48:20 loading BDD file: scenarios/Test.bdd
+17:48:20 total test found: 1
+17:48:21 
+
+Executing scenario: TestFlight - end to end
+17:48:21 pkg: com.qmetry.qaf.automation.step
+17:48:21 pkg: com.testflightbooking
+17:48:21 Found duplicate step to load [] with [lower] prority then []
+17:48:21 Invoking Teststep: Given user opens the browser
+17:48:38 Completed Teststep: Given user opens the browser
+17:48:38 Invoking Teststep: Then user should see the orbitz homepage
+17:48:39 Completed Teststep: Then user should see the orbitz homepage
+17:48:39 Invoking Teststep: when user clicks on to flights tab
+17:48:39 Completed Teststep: when user clicks on to flights tab
+17:48:39 Invoking Teststep: And user clicks on to one way tab
+17:48:39 Completed Teststep: And user clicks on to one way tab
+17:48:39 Invoking Teststep: And user enters the "pune" in source with arguments: [pune]
+17:48:40 Invoking Teststep: click on {loc} with arguments: [lst.from.besttraveldeals]
+17:48:41 Completed Teststep: click on {loc} with arguments: [lst.from.besttraveldeals]
+17:48:41 Completed Teststep: And user enters the "pune" in source with arguments: [pune]
+17:48:41 Invoking Teststep: And user enters "bangalore" in destination with arguments: [bangalore]
+17:48:41 Invoking Teststep: sendKeys {text} into {loc} with arguments: [bangalore,  txt.flyingto.besttraveldeals]

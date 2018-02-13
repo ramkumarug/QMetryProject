@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>TestNG:  BDD Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BDD Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 13 11:23:00 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>34 seconds (34764 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.TestFlight()'><b>TestFlight</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (TestFlight)<br>Test method: end to end<br/>
+<a href="#Output-1406919011" onClick='toggleBox("Output-1406919011", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1406919011" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1406919011">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens the browser</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see the orbitz homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: equalToIgnoringCase("https://www.orbitz.com/")
+     Actual: was https://www.orbitz.com/ <a href="test-results/13_Feb_2018_11_22_AM/img/TestFlight_1cckgfrnk9bws60520.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>when user clicks on to flights tab</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user clicks on to one way tab</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user enters the "pune" in source</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'lst.from.besttraveldeals'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user enters "coimbatore" in destination</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'coimbatore' into 'txt.flyingto.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'lst.to.besttraveldeals'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user enters "03/01/2018" as the date of journey</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'txt.departing.besttraveldeals'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.calender.besttraveldeals'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And clicks on search</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
+</table><p>
+</body>
+</html>

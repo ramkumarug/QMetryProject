@@ -1,0 +1,467 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "OpensTheBrowser",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 12863
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1155
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyHomePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentUrl",
+          "args": [
+            "{}"
+          ],
+          "result": "https://www.orbitz.com/",
+          "subLogs": [],
+          "duration": 114
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clicksOnToFlightsTab",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@id='tab-flight-tab'], using=xpath}"
+          ],
+          "result": "id: 0.12016062345880263-1",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@id='tab-flight-tab']",
+            "{\"id\":\"0.12016062345880263-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 193
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clicksOnToOneWayTab",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//label[@id='flight-type-one-way-label'], using=xpath}"
+          ],
+          "result": "id: 0.12016062345880263-2",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //label[@id='flight-type-one-way-label']",
+            "{\"id\":\"0.12016062345880263-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 166
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "entersTheSource",
+      "args": [
+        "[pune]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='flight-origin'], using=xpath}"
+          ],
+          "result": "id: 0.12016062345880263-3",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='flight-origin']",
+            "{\"id\":\"0.12016062345880263-3\",\"value\":[\"pune\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 189
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[lst.from.besttraveldeals]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//span[@data-tid='typeahead-icon0']/.., using=xpath}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@data-tid='typeahead-icon0']/..\"}\n  (Session info: chrome=64.0.3282.140)\n  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 28 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\\Users\\RAM~1.KUM\\AppData\\Local\\Temp\\scoped_dir7284_14925}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.140, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 161418718f4f85f7505ae1f08c4a8014\n*** Element info: {Using=xpath, value=//span[@data-tid='typeahead-icon0']/..}",
+              "subLogs": [],
+              "duration": 30
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//span[@data-tid='typeahead-icon0']/.., using=xpath}"
+              ],
+              "result": "id: 0.12016062345880263-4",
+              "subLogs": [],
+              "duration": 15
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //span[@data-tid='typeahead-icon0']/..",
+                "{\"id\":\"0.12016062345880263-4\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 122
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enteringDestination",
+      "args": [
+        "[coimbatore]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='flight-destination'], using=xpath}"
+          ],
+          "result": "id: 0.12016062345880263-5",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //input[@id='flight-destination']",
+            "{\"id\":\"0.12016062345880263-5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 97
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[coimbatore, txt.flyingto.besttraveldeals]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@id='flight-destination'], using=xpath}"
+              ],
+              "result": "id: 0.12016062345880263-5",
+              "subLogs": [],
+              "duration": 16
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@id='flight-destination']",
+                "{\"id\":\"0.12016062345880263-5\",\"value\":[\"coimbatore\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 227
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[lst.to.besttraveldeals]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//span[@data-tid='typeahead-icon0']/.., using=xpath}"
+              ],
+              "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@data-tid='typeahead-icon0']/..\"}\n  (Session info: chrome=64.0.3282.140)\n  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\\Users\\RAM~1.KUM\\AppData\\Local\\Temp\\scoped_dir7284_14925}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.140, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 161418718f4f85f7505ae1f08c4a8014\n*** Element info: {Using=xpath, value=//span[@data-tid='typeahead-icon0']/..}",
+              "subLogs": [],
+              "duration": 11
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//span[@data-tid='typeahead-icon0']/.., using=xpath}"
+              ],
+              "result": "id: 0.12016062345880263-6",
+              "subLogs": [],
+              "duration": 24
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //span[@data-tid='typeahead-icon0']/..",
+                "{\"id\":\"0.12016062345880263-6\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 122
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enteringDate",
+      "args": [
+        "[03/01/2018]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='flight-departing'], using=xpath}"
+          ],
+          "result": "id: 0.12016062345880263-7",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='flight-departing']",
+            "{\"id\":\"0.12016062345880263-7\",\"value\":[\"03/01/2018\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 194
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[txt.departing.besttraveldeals]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@id='flight-departing'], using=xpath}"
+              ],
+              "result": "id: 0.12016062345880263-7",
+              "subLogs": [],
+              "duration": 12
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //input[@id='flight-departing']",
+                "{\"id\":\"0.12016062345880263-7\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 52
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clicksOnSearch",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@id='search-button'], using=xpath}"
+          ],
+          "result": "id: 0.12016062345880263-8",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //button[@id='search-button']",
+            "{\"id\":\"0.12016062345880263-8\"}"
+          ],
+          "result": "unknown error: Element <button type=\"submit\" data-wizard-action=\"{submit:true}\" class=\"btn-action btn-primary\" id=\"search-button\" data-tid=\"search-button\">...</button> is not clickable at point (262, 626). Other element would receive the click: <button type=\"button\" class=\"datepicker-cal-date\" data-year=\"2018\" data-month=\"1\" data-day=\"...\">19</button>\n  (Session info: chrome=64.0.3282.140)\n  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 46 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\\Users\\RAM~1.KUM\\AppData\\Local\\Temp\\scoped_dir7284_14925}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.140, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 161418718f4f85f7505ae1f08c4a8014",
+          "subLogs": [],
+          "duration": 46
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user opens the browser",
+      "type": "TestStepPass",
+      "duration": 16965,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user should see the orbitz homepage",
+      "type": "TestStepPass",
+      "duration": 1110,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: equalToIgnoringCase(\"https://www.orbitz.com/\")\n     Actual: was https://www.orbitz.com/",
+          "type": "Pass",
+          "screenshot": "test-results/12_Feb_2018_07_03_PM/img/TestFlight_1ftzksioruaj650996.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "when user clicks on to flights tab",
+      "type": "TestStepPass",
+      "duration": 237,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user clicks on to one way tab",
+      "type": "TestStepPass",
+      "duration": 207,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user enters the \"pune\" in source",
+      "type": "TestStepPass",
+      "duration": 1411,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'lst.from.besttraveldeals'",
+          "type": "TestStepPass",
+          "duration": 1174,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user enters \"coimbatore\" in destination",
+      "type": "TestStepPass",
+      "duration": 1531,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'coimbatore' into 'txt.flyingto.besttraveldeals'",
+          "type": "TestStepPass",
+          "duration": 246,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'lst.to.besttraveldeals'",
+          "type": "TestStepPass",
+          "duration": 1159,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user enters \"03/01/2018\" as the date of journey",
+      "type": "TestStepPass",
+      "duration": 290,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'txt.departing.besttraveldeals'",
+          "type": "TestStepPass",
+          "duration": 66,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And clicks on search",
+      "type": "TestStepFail",
+      "screenshot": "test-results/12_Feb_2018_07_03_PM/img/TestFlight_168et4x0hw0xs50997.png",
+      "duration": 65,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "unknown error: Element <button type=\"submit\" data-wizard-action=\"{submit:true}\" class=\"btn-action btn-primary\" id=\"search-button\" data-tid=\"search-button\">...</button> is not clickable at point (262, 626). Other element would receive the click: <button type=\"button\" class=\"datepicker-cal-date\" data-year=\"2018\" data-month=\"1\" data-day=\"...\">19</button>\n  (Session info: chrome=64.0.3282.140)\n  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 46 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\\Users\\RAM~1.KUM\\AppData\\Local\\Temp\\scoped_dir7284_14925}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.140, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 161418718f4f85f7505ae1f08c4a8014",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: unknown error: Element <button type=\"submit\" data-wizard-action=\"{submit:true}\" class=\"btn-action btn-primary\" id=\"search-button\" data-tid=\"search-button\">...</button> is not clickable at point (262, 626). Other element would receive the click: <button type=\"button\" class=\"datepicker-cal-date\" data-year=\"2018\" data-month=\"1\" data-day=\"...\">19</button>\n  (Session info: chrome=64.0.3282.140)\n  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 46 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\\Users\\RAM~1.KUM\\AppData\\Local\\Temp\\scoped_dir7284_14925}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.140, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: 161418718f4f85f7505ae1f08c4a8014\r\n\tat .And clicks on search(scenarios/Test.bdd:13)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:256)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:252)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.click_aroundBody50(CommonStep.java:648)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:647)\r\n\tat com.testflightbooking.StepsBackLog.clicksOnSearch(StepsBackLog.java:103)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

@@ -1,0 +1,10 @@
+btn.flights.besttraveldeals = {\"locator\":\"xpath=//a[@id='tab-flight-tab']\",\"desc\":\"flights tab in besttraveldeals page\"}
+btn.oneway.besttraveldeals = {\"locator\":\"xpath=//label[@id='flight-type-one-way-label']\",\"desc\":\"oneway tab in besttraveldeals page\"}
+txt.departing.besttraveldeals = {\"locator\":\"xpath=//input[@id='flight-departing']\",\"desc\":\"departing text box in besttraveldeals page\"}
+txt.flyingfrom.besttravelpage = {\"locator\":\"xpath=//input[@id='flight-origin']\",\"desc\":\"flying from text box in besttraveldeals page\"}
+txt.flyingto.besttraveldeals = {\"locator\":\"xpath=//input[@id='flight-destination']\",\"desc\":\"flying To text box in besttraveldeals page\"}
+btn.search.besttraveldeals = {\"locator\":\"xpath=//button[@id='search-button']\",\"desc\":\"search button in besttraveldeals page\"}
+lst.from.besttraveldeals = {\"locator\":\"xpath=//span[@data-tid='typeahead-icon0']/..\",\"desc\":\"chossing the source from the given list\"}
+lst.to.besttraveldeals = {\"locator\":\"xpath=//span[@data-tid='typeahead-icon0']/..\",\"desc\":\"chossing the destination from the given list\"}
+drpdw.noofadult.besttraveldeals = {\"locator\":\"xpath=//select[@id='flight-adults']\",\"desc\":\"selecting no of audults from drop down list box\"}
+btn.calender.besttraveldeals = {\"locator\":\"xpath=//button[@class='datepicker-close-btn close btn-text']\",\"desc\":\"closing the calender\"}

@@ -1,0 +1,598 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "lauchSite",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 6941
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1131
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "ORBITZ.com – Best Travel Deals",
+      "subLogs": [],
+      "duration": 58
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@id='tab-flight-tab'], using=xpath}"
+      ],
+      "result": "id: 0.8794111020097637-1",
+      "subLogs": [],
+      "duration": 94
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[@id='tab-flight-tab']",
+        "{\"id\":\"0.8794111020097637-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 179
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//label[@id='flight-type-one-way-label'], using=xpath}"
+      ],
+      "result": "id: 0.8794111020097637-2",
+      "subLogs": [],
+      "duration": 45
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //label[@id='flight-type-one-way-label']",
+        "{\"id\":\"0.8794111020097637-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 178
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@id='flight-origin'], using=xpath}"
+      ],
+      "result": "id: 0.8794111020097637-3",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@id='flight-origin']",
+        "{\"id\":\"0.8794111020097637-3\",\"value\":[\"pune\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 133
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@id='flight-destination'], using=xpath}"
+      ],
+      "result": "id: 0.8794111020097637-4",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@id='flight-destination']",
+        "{\"id\":\"0.8794111020097637-4\",\"value\":[\"coimbatore\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 292
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@id='flight-departing'], using=xpath}"
+      ],
+      "result": "id: 0.8794111020097637-5",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //input[@id='flight-departing']",
+        "{\"id\":\"0.8794111020097637-5\",\"value\":[\"03/03/2018\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 7165
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//li[@class='flight-module segment offer-listing'], using=xpath}"
+      ],
+      "result": "[id: 0.7973523345758815-1, id: 0.7973523345758815-2, id: 0.7973523345758815-3, id: 0.7973523345758815-4, id: 0.7973523345758815-5, id: 0.7973523345758815-6, id: 0.7973523345758815-7, id: 0.7973523345758815-8, id: 0.7973523345758815-9, id: 0.7973523345758815-10, id: 0.7973523345758815-11, id: 0.7973523345758815-12, id: 0.7973523345758815-13, id: 0.7973523345758815-14, id: 0.7973523345758815-15, id: 0.7973523345758815-16, id: 0.7973523345758815-17, id: 0.7973523345758815-18, id: 0.7973523345758815-19, id: 0.7973523345758815-20, id: 0.7973523345758815-21, id: 0.7973523345758815-22, id: 0.7973523345758815-23, id: 0.7973523345758815-24, id: 0.7973523345758815-25, id: 0.7973523345758815-26, id: 0.7973523345758815-27, id: 0.7973523345758815-28, id: 0.7973523345758815-29, id: 0.7973523345758815-30, id: 0.7973523345758815-31, id: 0.7973523345758815-32, id: 0.7973523345758815-33, id: 0.7973523345758815-34, id: 0.7973523345758815-35, id: 0.7973523345758815-36, id: 0.7973523345758815-37, id: 0.7973523345758815-38, id: 0.7973523345758815-39, id: 0.7973523345758815-40, id: 0.7973523345758815-41, id: 0.7973523345758815-42, id: 0.7973523345758815-43, id: 0.7973523345758815-44, id: 0.7973523345758815-45, id: 0.7973523345758815-46, id: 0.7973523345758815-47, id: 0.7973523345758815-48, id: 0.7973523345758815-49, id: 0.7973523345758815-50, id: 0.7973523345758815-51, id: 0.7973523345758815-52, id: 0.7973523345758815-53]",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='flight-module segment offer-listing']",
+        "{\"using\":\"xpath\",\"id\":\"0.7973523345758815-1\",\"value\":\"//div[@class='secondary truncate']\"}"
+      ],
+      "result": "findChildElement:id: 0.7973523345758815-54",
+      "subLogs": [],
+      "duration": 56
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='secondary truncate']",
+        "{\"id\":\"0.7973523345758815-54\"}"
+      ],
+      "result": "getElementText:Jet Airways",
+      "subLogs": [],
+      "duration": 43
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='flight-module segment offer-listing']",
+        "{\"using\":\"xpath\",\"id\":\"0.7973523345758815-1\",\"value\":\"//div[@class='primary']\"}"
+      ],
+      "result": "findChildElement:id: 0.7973523345758815-55",
+      "subLogs": [],
+      "duration": 59
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='primary']",
+        "{\"id\":\"0.7973523345758815-55\"}"
+      ],
+      "result": "getElementText:11:55pm - 1:45am +1\nFlight spans 1 day",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='flight-module segment offer-listing']",
+        "{\"using\":\"xpath\",\"id\":\"0.7973523345758815-1\",\"value\":\"//span[@class='dollars price-emphasis']\"}"
+      ],
+      "result": "findChildElement:id: 0.7973523345758815-56",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='dollars price-emphasis']",
+        "{\"id\":\"0.7973523345758815-56\"}"
+      ],
+      "result": "getElementText:$78",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='flight-module segment offer-listing']",
+        "{\"using\":\"xpath\",\"id\":\"0.7973523345758815-2\",\"value\":\"//div[@class='secondary truncate']\"}"
+      ],
+      "result": "findChildElement:id: 0.7973523345758815-54",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='secondary truncate']",
+        "{\"id\":\"0.7973523345758815-54\"}"
+      ],
+      "result": "getElementText:Jet Airways",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='flight-module segment offer-listing']",
+        "{\"using\":\"xpath\",\"id\":\"0.7973523345758815-2\",\"value\":\"//div[@class='primary']\"}"
+      ],
+      "result": "findChildElement:id: 0.7973523345758815-55",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='primary']",
+        "{\"id\":\"0.7973523345758815-55\"}"
+      ],
+      "result": "getElementText:11:55pm - 1:45am +1\nFlight spans 1 day",
+      "subLogs": [],
+      "duration": 2
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='flight-module segment offer-listing']",
+        "{\"using\":\"xpath\",\"id\":\"0.7973523345758815-2\",\"value\":\"//span[@class='dollars price-emphasis']\"}"
+      ],
+      "result": "findChildElement:id: 0.7973523345758815-56",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='dollars price-emphasis']",
+        "{\"id\":\"0.7973523345758815-56\"}"
+      ],
+      "result": "getElementText:$78",
+      "subLogs": [],
+      "duration": 61
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='flight-module segment offer-listing']",
+        "{\"using\":\"xpath\",\"id\":\"0.7973523345758815-3\",\"value\":\"//div[@class='secondary truncate']\"}"
+      ],
+      "result": "findChildElement:id: 0.7973523345758815-54",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='secondary truncate']",
+        "{\"id\":\"0.7973523345758815-54\"}"
+      ],
+      "result": "getElementText:Jet Airways",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='flight-module segment offer-listing']",
+        "{\"using\":\"xpath\",\"id\":\"0.7973523345758815-3\",\"value\":\"//div[@class='primary']\"}"
+      ],
+      "result": "findChildElement:id: 0.7973523345758815-55",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='primary']",
+        "{\"id\":\"0.7973523345758815-55\"}"
+      ],
+      "result": "getElementText:11:55pm - 1:45am +1\nFlight spans 1 day",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='flight-module segment offer-listing']",
+        "{\"using\":\"xpath\",\"id\":\"0.7973523345758815-3\",\"value\":\"//span[@class='dollars price-emphasis']\"}"
+      ],
+      "result": "findChildElement:id: 0.7973523345758815-56",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='dollars price-emphasis']",
+        "{\"id\":\"0.7973523345758815-56\"}"
+      ],
+      "result": "getElementText:$78",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='flight-module segment offer-listing']",
+        "{\"using\":\"xpath\",\"id\":\"0.7973523345758815-4\",\"value\":\"//div[@class='secondary truncate']\"}"
+      ],
+      "result": "findChildElement:id: 0.7973523345758815-54",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='secondary truncate']",
+        "{\"id\":\"0.7973523345758815-54\"}"
+      ],
+      "result": "getElementText:Jet Airways",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='flight-module segment offer-listing']",
+        "{\"using\":\"xpath\",\"id\":\"0.7973523345758815-4\",\"value\":\"//div[@class='primary']\"}"
+      ],
+      "result": "findChildElement:id: 0.7973523345758815-55",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='primary']",
+        "{\"id\":\"0.7973523345758815-55\"}"
+      ],
+      "result": "getElementText:11:55pm - 1:45am +1\nFlight spans 1 day",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='flight-module segment offer-listing']",
+        "{\"using\":\"xpath\",\"id\":\"0.7973523345758815-4\",\"value\":\"//span[@class='dollars price-emphasis']\"}"
+      ],
+      "result": "findChildElement:id: 0.7973523345758815-56",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='dollars price-emphasis']",
+        "{\"id\":\"0.7973523345758815-56\"}"
+      ],
+      "result": "getElementText:$78",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='flight-module segment offer-listing']",
+        "{\"using\":\"xpath\",\"id\":\"0.7973523345758815-5\",\"value\":\"//div[@class='secondary truncate']\"}"
+      ],
+      "result": "findChildElement:id: 0.7973523345758815-54",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='secondary truncate']",
+        "{\"id\":\"0.7973523345758815-54\"}"
+      ],
+      "result": "getElementText:Jet Airways",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='flight-module segment offer-listing']",
+        "{\"using\":\"xpath\",\"id\":\"0.7973523345758815-5\",\"value\":\"//div[@class='primary']\"}"
+      ],
+      "result": "findChildElement:id: 0.7973523345758815-55",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='primary']",
+        "{\"id\":\"0.7973523345758815-55\"}"
+      ],
+      "result": "getElementText:11:55pm - 1:45am +1\nFlight spans 1 day",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='flight-module segment offer-listing']",
+        "{\"using\":\"xpath\",\"id\":\"0.7973523345758815-5\",\"value\":\"//span[@class='dollars price-emphasis']\"}"
+      ],
+      "result": "findChildElement:id: 0.7973523345758815-56",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@class='dollars price-emphasis']",
+        "{\"id\":\"0.7973523345758815-56\"}"
+      ],
+      "result": "getElementText:$78",
+      "subLogs": [],
+      "duration": 0
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "user is on the Homepage",
+      "type": "TestStepPass",
+      "duration": 8077,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: \"ORBITZ.com – Best Travel Deals\"\n     Actual: was \"ORBITZ.com – Best Travel Deals\"",
+      "type": "Pass",
+      "screenshot": "../img/testOrbitz_eeceityorzmx19099.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Elements in the component",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Flight name :Jet Airways",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Source and Destination::11:55pm - 1:45am +1\nFlight spans 1 day",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Price:$78",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Flight name :Jet Airways",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Source and Destination::11:55pm - 1:45am +1\nFlight spans 1 day",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Price:$78",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Flight name :Jet Airways",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Source and Destination::11:55pm - 1:45am +1\nFlight spans 1 day",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Price:$78",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Flight name :Jet Airways",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Source and Destination::11:55pm - 1:45am +1\nFlight spans 1 day",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Price:$78",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Flight name :Jet Airways",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Source and Destination::11:55pm - 1:45am +1\nFlight spans 1 day",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Price:$78",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Listed above are the Elements in the component",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

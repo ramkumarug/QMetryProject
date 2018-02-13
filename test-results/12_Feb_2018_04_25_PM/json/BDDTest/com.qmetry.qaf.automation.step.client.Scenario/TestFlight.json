@@ -1,0 +1,41 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "OpensTheBrowser",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 18847
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1122
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user opens the browser",
+      "type": "TestStepPass",
+      "duration": 22693,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "lauchSite",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 15508
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1133
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsTheAnd",
+      "args": [
+        "[pnq, destination]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And user selects find flights",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user is on the Homepage",
+      "type": "TestStepPass",
+      "duration": 20725,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user selects the 'pnq' and 'destination'",
+      "type": "TestStepPass",
+      "duration": 6,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user selects find flights :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: And user selects find flights@scenarios/Test.bdd#8 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .And user selects find flights(scenarios/Test.bdd:8)\r\n"
+}
