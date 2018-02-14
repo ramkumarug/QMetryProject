@@ -1,7 +1,7 @@
 {
-  "total": 2,
-  "pass": 2,
-  "fail": 0,
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
   "skip": 0,
   "classes": [
     "com.testflightbooking.test.TestOrbitz",
@@ -21,13 +21,13 @@
       "rotatable": "false",
       "mobileEmulationEnabled": "false",
       "networkConnectionEnabled": "false",
-      "chrome": "{chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\\Users\\RAM~1.KUM\\AppData\\Local\\Temp\\scoped_dir16416_30977}",
+      "chrome": "{chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\\Users\\RAM~1.KUM\\AppData\\Local\\Temp\\scoped_dir4396_2092}",
       "takesHeapSnapshot": "true",
       "pageLoadStrategy": "normal",
       "databaseEnabled": "false",
       "handlesAlerts": "true",
       "hasTouchScreen": "false",
-      "version": "64.0.3282.140",
+      "version": "64.0.3282.167",
       "platform": "XP",
       "browserConnectionEnabled": "false",
       "nativeEvents": "true",
@@ -63,5 +63,5 @@
     }
   },
   "startTime": 1518412320254,
-  "endTime": 1518524623376
+  "endTime": 1518610770747
 }

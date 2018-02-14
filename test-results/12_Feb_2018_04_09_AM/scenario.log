@@ -399,3 +399,5 @@ Session ID: bb72ed99bde8951786fe426987c3f3e3
 17:53:43 Completed Teststep: click on {loc} with arguments: [btn.calender.besttraveldeals]
 17:53:43 Invoking Teststep: click on {loc} with arguments: [btn.search.besttraveldeals]
 17:53:43 Completed Teststep: click on {loc} with arguments: [btn.search.besttraveldeals]
+17:49:06 Invoking Teststep: user is on the Homepage
+17:49:17 Completed Teststep: user is on the Homepage

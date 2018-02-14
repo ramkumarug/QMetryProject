@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.testflightbooking.test.DataAssignment">
+      <class name="com.testflightbooking.test.TestOrbitz">
         <methods>
-          <include name="fetchData" invocation-numbers="0 1"/>
+          <include name="testOrbitz"/>
         </methods>
-      </class> <!-- com.testflightbooking.test.DataAssignment -->
+      </class> <!-- com.testflightbooking.test.TestOrbitz -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

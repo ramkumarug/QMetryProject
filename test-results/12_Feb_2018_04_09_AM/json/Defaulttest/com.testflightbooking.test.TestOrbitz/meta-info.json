@@ -350,6 +350,22 @@
       "duration": 18011,
       "result": "pass",
       "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testOrbitz",
+        "resultFileName": "testOrbitzPCxXZwgBtT",
+        "sign": "TestOrbitz.testOrbitz()[pri:0, instance:com.testflightbooking.test.TestOrbitz@7a6d7e92]"
+      },
+      "dependsOn": [],
+      "startTime": 1518610746532,
+      "duration": 23499,
+      "result": "fail",
+      "passPer": 0.0
     }
   ]
 }

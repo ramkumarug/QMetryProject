@@ -3,6 +3,11 @@
     {
       "name": "Default suite",
       "dir": "test-results/12_Feb_2018_04_09_AM/json",
+      "startTime": 1518610746384
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/12_Feb_2018_04_09_AM/json",
       "startTime": 1518524596796
     },
     {
